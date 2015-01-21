@@ -1,6 +1,6 @@
 # CSS3-Bar-Graphs
 
- main.css is the main style sheet. It is located in styles directory. 
+ main.css is the main style sheet. It is located in styles directory of each example. 
  
  File is divided in the following sections:
 
