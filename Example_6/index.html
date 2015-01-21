@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<title>CSS3 Bar Graphs</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" type="text/css" href="styles/main.css"/>
+	</head>
+	<body>
+		<!-- css bar graph -->
+		<div class="css_bar_graph">
+			
+			<!-- y_axis labels -->
+			<ul class="y_axis">
+				<li>100K</li><li>90K</li><li>80K</li><li>70K</li><li>60K</li><li>50K</li><li>40K</li><li>30K</li><li>20K</li><li>10K</li><li>0K</li>
+			</ul>
+			
+			<!-- x_axis labels -->
+			<ul class="x_axis">
+				<li>Jan</li><li>Feb</li><li>Mar</li><li>Apr</li><li>May</li><li>Jun</li><li>Jul</li><li>Aug</li><li>Sep</li><li>Oct</li><li>Nov</li><li>Dec</li>
+			</ul>
+			
+			<!-- graph -->
+			<div class="graph">
+				<!-- grid -->
+				<ul class="grid">
+					<li><!-- 100 --></li>
+					<li><!-- 90 --></li>
+					<li><!-- 80 --></li>
+					<li><!-- 70 --></li>
+					<li><!-- 60 --></li>
+					<li><!-- 50 --></li>
+					<li><!-- 40 --></li>
+					<li><!-- 30 --></li>
+					<li><!-- 20 --></li>
+					<li><!-- 10 --></li>
+					<li class="bottom"><!-- 0 --></li>
+				</ul>
+				
+				<!-- bars -->
+				<!-- 250px = 100% -->
+				<ul>
+					<li class="bar nr_1 green" style="height: 125px;"><div class="top"></div><div class="bottom"></div><span>50K</span></li>
+					<li class="bar nr_2 green" style="height: 225px;"><div class="top"></div><div class="bottom"></div><span>90K</span></li>
+					<li class="bar nr_3 green" style="height: 200px;"><div class="top"></div><div class="bottom"></div><span>80K</span></li>
+					<li class="bar nr_4 green" style="height: 125px;"><div class="top"></div><div class="bottom"></div><span>50K</span></li>
+					<li class="bar nr_5 green" style="height: 150px;"><div class="top"></div><div class="bottom"></div><span>60K</span></li>
+					<li class="bar nr_6 green" style="height: 100px;"><div class="top"></div><div class="bottom"></div><span>40K</span></li>
+					<li class="bar nr_7 red" style="height: 25px;"><div class="top"></div><div class="bottom"></div><span>10K</span></li>
+					<li class="bar nr_8 red" style="height: 10px;"><div class="top"></div><div class="bottom"></div><span>4K</span></li>
+					<li class="bar nr_9 red" style="height: 5px;"><div class="top"></div><div class="bottom"></div><span>2K</span></li>
+					<li class="bar nr_10 red" style="height: 30px;"><div class="top"></div><div class="bottom"></div><span>12K</span></li>
+					<li class="bar nr_11 red" style="height: 60px;"><div class="top"></div><div class="bottom"></div><span>24K</span></li>
+					<li class="bar nr_12 green" style="height: 100px;"><div class="top"></div><div class="bottom"></div><span>40K</span></li>
+				</ul>	
+			</div>
+			
+			<!-- graph label -->
+			<div class="label"><span>Graph: </span>Sales in thousands in 2011</div>
+		
+		</div>
+	</body>
+</html>
